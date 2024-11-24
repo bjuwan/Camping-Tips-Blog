@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Wilderness Adventures</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        
+        :root {
+            --primary-color: #2C5530;
+            --secondary-color: #8B4513;
+            --accent-color: #F4A460;
+            --bg-light: #F5F5F5;
+            --text-dark: #333;
+        }
+
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+        }
+
+        
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                        url('https://source.unsplash.com/1920x600/?wilderness,mountains') center/cover;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section {
+            margin-bottom: 3rem;
+        }
+
+        .about-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .about-section p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .mission-values {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .value-card {
+            background-color: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .value-card i {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>About Wilderness Adventures</h1>
+            <p>Discover Our Story and Mission</p>
+        </div>
+        
+    </header>
+    
+    <main>
+        <section class="about-section">
+            <h2><i class="fas fa-campground"></i> Our Story</h2>
+            <p>Wilderness Adventures began with a simple passion: connecting people with the great outdoors. Founded by a group of experienced hikers and camping enthusiasts, we've made it our mission to share our knowledge and love for nature with others.</p>
+            <p>Since our establishment, we've helped thousands of outdoor enthusiasts discover new trails, learn essential wilderness skills, and connect with like-minded adventurers.</p>
+        </section>
+
+        <section class="about-section">
+            <h2><i class="fas fa-bullseye"></i> Our Mission</h2>
+            <p>We strive to create a vibrant community of outdoor enthusiasts while promoting responsible wilderness exploration and environmental stewardship. Our platform serves as a hub for sharing experiences, knowledge, and tips about camping, hiking, and outdoor adventures.</p>
+        </section>
+
+        <section class="about-section">
+            <h2><i class="fas fa-heart"></i> Our Values</h2>
+            <div class="mission-values">
+                <div class="value-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Environmental Stewardship</h3>
+                    <p>Promoting responsible outdoor practices and conservation efforts.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Community</h3>
+                    <p>Building connections among outdoor enthusiasts.</p>
+                </div>
+                <div class="value-card">
+                    <i class="fas fa-book-reader"></i>
+                    <h3>Education</h3>
+                    <p>Sharing knowledge and skills for safe outdoor adventures.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wilderness Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>

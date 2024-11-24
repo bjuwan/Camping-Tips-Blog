@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outdoor Guide Resume - Wilderness Adventures</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2C5530;
+            --secondary-color: #8B4513;
+            --accent-color: #F4A460;
+            --bg-light: #F5F5F5;
+            --text-dark: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .resume-content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .resume-section {
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .resume-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .education-item, .experience-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .skills-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .skills-list li {
+            background-color: var(--bg-light);
+            padding: 0.8rem;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Professional Experience</h1>
+            <p>Outdoor Guide & Wilderness Expert</p>
+        </div>
+        <nav>
+            <a href="index.php"><i class="fas fa-home"></i> Home</a>
+            <a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a>
+            <a href="create_post.php"><i class="fas fa-pen"></i> Create Post</a>
+            <a href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="signup.php"><i class="fas fa-user-plus"></i> Signup</a>
+            <a href="profile.php"><i class="fas fa-user"></i> Profile</a>
+            <a href="index.html"><i class="fas fa-home"></i> Website Info - Index.html </a>
+        </nav>
+    </header>
+    
+    <main class="resume-content">
+        <section class="resume-section">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="education-item">
+                <h3>Associate of Applied Science in Computer Programming</h3>
+                <p>Southern Crescent Technical College</p>
+                <p>2022 - now</p>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            <div class="experience-item">
+                <h3>Lead Outdoor Guide</h3>
+                <p>Mountain Adventures Co. | 2022 - Present</p>
+                <ul>
+                    <li>Lead multi-day backpacking trips for groups of 8-12 people</li>
+                    <li>Teach wilderness survival skills and Leave No Trace principles</li>
+                    <li>Manage risk assessment and emergency response protocols</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <h2><i class="fas fa-tools"></i> Skills</h2>
+            <ul class="skills-list">
+                <li>Navigation & Route Finding</li>
+                <li>Wilderness First Aid</li>
+                <li>Camp Craft</li>
+                <li>Rock Climbing</li>
+                <li>Environmental Education</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wilderness Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>

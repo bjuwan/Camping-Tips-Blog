@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilderness Adventures - Welcome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        
+        :root {
+            --primary-color: #2C5530;
+            --secondary-color: #8B4513;
+            --accent-color: #F4A460;
+            --bg-light: #F5F5F5;
+            --text-dark: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+        }
+
+        
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/images/index.jpg') center/cover;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        
+        nav {
+            background-color: var(--primary-color);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+        }
+
+        .content-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Welcome to Wilderness Adventures</h1>
+            <p>Your Guide to Outdoor Living</p>
+        </div>
+        <nav>
+            <a href="index.php"><i class="fas fa-home"></i> Home</a>
+            <a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a>
+            <a href="create_post.php"><i class="fas fa-pen"></i> Create Post</a>
+            <a href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="profile.php"><i class="fas fa-user"></i> Profile</a>
+            <a href="index.html"><i class="fas fa-home"></i> Website Info - Index.html </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>About Our Community</h2>
+            <p>Welcome to Wilderness Adventures, your ultimate resource for outdoor exploration and adventure. We're passionate about connecting people with nature through camping, hiking, and outdoor activities.</p>
+            <p>Our community brings together outdoor enthusiasts from all experience levels to share knowledge, stories, and adventures.</p>
+            <p>Click the login button to sign in or sign up to get started!</p>
+        </section>
+
+        <section class="content-section">
+            <h2>What We Offer</h2>
+            <ul>
+                <li>Expert camping and hiking guides</li>
+                <li>Trail recommendations and reviews</li>
+                <li>Outdoor safety tips and best practices</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wilderness Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
